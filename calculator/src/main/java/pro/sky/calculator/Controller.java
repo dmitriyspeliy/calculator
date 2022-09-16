@@ -34,7 +34,7 @@ public class Controller {
     }
 
     @GetMapping("/divide")
-    public String division(@RequestParam(value = "num1") String num1, @RequestParam(value = "num2") String num2) {
+    public String divide(@RequestParam(value = "num1") String num1, @RequestParam(value = "num2") String num2) {
         return serviceCal.division(num1, num2);
     }
 
